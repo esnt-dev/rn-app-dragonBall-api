@@ -37,6 +37,7 @@ export const CharacterCard: React.FC<CharacterCardProps> = ({ character }) => {
           {character.race} • {character.gender}
         </Text>
         <Text style={globalStyles.characterKi}>Ki: {character.ki}</Text>
+        <Text style={globalStyles.characterKi}>Team: {character.affiliation}  </Text>
       </View>
     </TouchableOpacity>
   );
